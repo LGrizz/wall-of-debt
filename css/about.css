@@ -320,10 +320,12 @@ src: url('../font/neris/Neris-Black.otf');
 
 
 body{
-    min-width: 1024px;
+    min-width: 1170px;
     font-family: neris !important;
     color:white;
     background-image: url('../img/topbg.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
 }
 
 .top{
@@ -442,11 +444,49 @@ body{
     padding:0 18%;
 }
 
-.cardsdiv{
-    height:860px;
-    background-image: url('../img/lightbricks.jpg');
+.quotesdiv{
+    height:732px;
+    background-image: url('../img/notes.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
     width:100%;
+    border-bottom: 5px solid red;
+    position: relative;
+    margin-bottom: 20px;
 }
+
+.bluequotediv{
+    opacity: .9;
+    background-color: #5b63cf;
+    height:180px;
+    width:100%;
+    color:white;
+    display:block;
+    padding-top: 100px;
+}
+
+.bluequotediv p{
+    margin:auto;
+    width:60%;
+    text-align: center;
+    font-size: 18px;
+    display:block;   
+}
+
+.rights{
+    margin:30px auto;
+    width:65%;
+    font-size: 14px;
+    display:block;  
+}
+
+.inquires{
+    margin:5px auto;
+    width:65%;
+    font-size: 14px;
+    display:block;
+}
+
 
 
 
