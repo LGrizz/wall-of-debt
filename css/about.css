@@ -303,6 +303,11 @@ textarea {
     }
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
 @font-face
 {
 font-family: neris;
@@ -337,6 +342,10 @@ body{
 
 .topaction{
     margin-top: 70px;
+}
+
+.join{
+    background-color: #e8432e;
 }
 
 .logo{
