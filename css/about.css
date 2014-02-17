@@ -487,6 +487,26 @@ body{
     display:block;
 }
 
+.aboutdiv{
+    width:180px;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.bigaboutdiv{
+    width:200px;
+    display: inline-block;
+    margin: 10px 30px 10px 0px;
+}
+
+.aboutdiv h3{
+    font-size: 20px;
+}
+
+.abouttext{
+    font-size: 20px;
+}
+
 
 
 
