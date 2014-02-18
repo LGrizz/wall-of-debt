@@ -536,7 +536,6 @@ input[type=submit]:focus{
   box-shadow: none !important;
   padding: none !important;
   margin: none !important;
-  border-bottom: none !important;
 }
 
 .jointhewall{
