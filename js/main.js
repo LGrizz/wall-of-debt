@@ -17,4 +17,26 @@ $( document ).ready(function() {
 	$(".contactus").click(function(){
 		$("html, body").animate({ scrollTop: $(document).height() }, "slow");
 	});
+
+
+	
+	
+	/*====
+	Homepage fixed navbar magic trick
+	=====*/
+	
+	var distance = $('.welcome').offset().top,
+	$window = $(window);
+	$window.scroll(function() {
+		if ( $window.scrollTop() >= distance ) {
+			$('.navbar').show();
+		}else if( $window.scrollTop() <= distance ) {
+			 $('.navbar').hide();
+		}
+	});
+
+	/*====
+	Tada!
+	=====*/
+
 });
