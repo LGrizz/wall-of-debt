@@ -489,6 +489,15 @@ body{
     width:100%;
 }
 
+.logo{
+    width:370px;
+    height:174px;
+}
+
+.joinform{
+    display: none;
+}
+
 
 
 
