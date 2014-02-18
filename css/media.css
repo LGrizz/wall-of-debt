@@ -342,22 +342,29 @@ a:hover, a:visited, a:link, a:active
     font-weight: normal;
     font-style: normal;
 
+}: url('../font/neris/Neris-Black.otf');
 }
 
 .underline{
     border-bottom: 1px red solid;
 }
 
+.whiteunderline{
+    border-bottom: 1px white solid;
+}
+
 
 body{
-    min-width: 1024px;
+    min-width: 1170px;
     font-family: neris !important;
     color:white;
     background-image: url('../img/topbg.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
 }
 
 .top{
-    height: 450px;
+    height: 350px;
     width: 65%;
     margin: 30px auto;
 }
@@ -374,9 +381,18 @@ body{
     margin-top: 70px;
 }
 
-.joindiv{
+.join{
+    background-color: #e8432e;
+}
+
+.logo{
+    width:370px;
+    height:174px;
+}
+
+.socialdiv{
     float:right;
-    width:300px;
+    width:500px;
     height:250px;
 }
 
@@ -384,7 +400,7 @@ body{
     color:white;
     float: left;
     font-size: 20px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .topnav{
@@ -397,34 +413,18 @@ body{
     font-family: nerissemibold;
 }
 
-.join{
-    background-color: #e8432e;
-}
-
-.joinbutton{
-    background-color: #e8432e;
-    padding: 10px 10px;
-    color: white;
-    clear:right;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 15px auto;
-    display:inline-block;
-    font-family: nerissemibold;
-}
-
 .toptext{
     color:white;
     float:right;
     clear:right;
     font-size: 22px;
     font-weight: 300;
-    width:300px;
+    width:500px;
     display:block;
     font-family: nerissemibold;
 }
 
-.welcomediv{
+.morediv{
     background-color: white;
     display:block;
     width:100%;
@@ -432,7 +432,7 @@ body{
     border-top: 5px red solid;
 }
 
-.innerwelcome{
+.innermore{
     width:65%;
     height:250px;
     margin:0px auto;
@@ -443,33 +443,10 @@ body{
     margin-top: 45px;
 }
 
-.welcomeleft{
-    float:left;
-    width:45%;
-    margin-right: 5%;
-}
-
-.welcomeright{
-    float:right;
-    width:50%;
-    padding-top: 40px;
-}
-
-.welcometext{
-    padding-top: 30px;
-    display: inline-block;
-    font-family: nerissemibold;
-}
-
-.welcomeright p{
-    font-family: nerislight;
-}
-
 .learnmore{
     padding-top: 20px;
     color: black;
     display: block;
-    font-family: nerissemibold;
 }
 
 .red{
@@ -483,11 +460,74 @@ body{
     padding:0 18%;
 }
 
-.cardsdiv{
-    height:860px;
-    background-image: url('../img/lightbricks.jpg');
+.downloaddiv{
+height:300px;
+    background-repeat: no-repeat;
+    background-color: white;
     width:100%;
+    border-bottom: 5px solid red;
+    position: relative;
+    margin-bottom: 20px;
 }
+
+.reddownloaddiv{
+    background-color: #e8432e;
+    height:300px;
+    width:100%;
+    color:white;
+    display:block;
+    padding-top: 100px;
+}
+
+.reddownloaddiv p{
+    font-size: 18px;
+    display:block;   
+}
+
+.rights{
+    margin:30px auto;
+    width:65%;
+    font-size: 14px;
+    display:block;  
+}
+
+.inquires{
+    margin:5px auto;
+    width:65%;
+    font-size: 14px;
+    display:block;
+}
+
+.aboutdiv{
+    width:200px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.bigaboutdiv{
+    width:200px;
+    display: inline-block;
+    margin: 10px 50px 10px 0px;
+    font-family: nerislight;
+}
+
+.aboutdiv h3{
+    font-size: 20px;
+}
+
+.aboutdiv img{
+    margin: 0px auto 20px auto;
+    display: block;
+}
+
+.abouttext{
+    font-size: 20px;
+}
+
+.aboutdiv p{
+    font-family: nerislight;
+}
+
 
 
 
