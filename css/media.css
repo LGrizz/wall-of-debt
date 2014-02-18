@@ -461,27 +461,28 @@ body{
 }
 
 .downloaddiv{
-height:300px;
+    height:400px;
     background-repeat: no-repeat;
     background-color: white;
     width:100%;
     border-bottom: 5px solid red;
     position: relative;
     margin-bottom: 20px;
+    background-color: #e8432e;
 }
 
 .reddownloaddiv{
-    background-color: #e8432e;
-    height:300px;
-    width:100%;
+    height:400px;
+    width:65%;
     color:white;
     display:block;
-    padding-top: 100px;
+    padding-top: 70px;
+    margin: auto;
 }
 
 .reddownloaddiv p{
-    font-size: 18px;
     display:block;   
+    width: 200px;
 }
 
 .rights{
@@ -526,6 +527,21 @@ height:300px;
 
 .aboutdiv p{
     font-family: nerislight;
+}
+
+.downloadtextheader{
+    font-family: neris;
+    font-size: 18px;
+}
+
+.downloadtext{
+    font-family: nerislight;
+    font-size: 16px;
+}
+
+.downloadtextsmall{
+    font-family: nerislight;
+    font-size: 12px;
 }
 
 
