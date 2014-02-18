@@ -496,6 +496,56 @@ body{
 
 .joinform{
     display: none;
+    margin-top: 75px;
+}
+
+input[type="text"]
+{
+    background: transparent !important;
+    border: none !important;
+    color: white !important;
+    border-bottom-color: white !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: none !important;
+  padding: none !important;
+  margin: none !important;
+  border-bottom: 2px solid white !important;
+}
+
+input[type="submit"]{
+    background-color: #e8432e;
+    padding: 10px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display:inline-block;
+    font-family: nerissemibold;
+    border: none !important;
+    margin-top: 15px;
+}
+
+input[type=submit]:focus{
+  box-shadow: none !important;
+  padding: none !important;
+  margin: none !important;
+  border-bottom: none !important;
+}
+
+.jointhewall{
+    color:white;
+    margin-top: 0px !important;
+}
+
+.formright{
+    float:right;
 }
 
 
