@@ -369,7 +369,7 @@ body {
 
  .wall {
     padding-top: 70px;
-    padding-bottom: 300px;
+    padding-bottom: 150px;
  }
 
 
@@ -707,10 +707,6 @@ body {
   /*==
     Footer
  ==*/
-
-.home-footer {
-    display: none;
-}
 
  footer {
     background-color: #fff;
