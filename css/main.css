@@ -331,13 +331,14 @@ body {
     font-size: 14px;
     color: #000;
     display: block;
+    margin-top: 20px;
  }
 
  .welcome .small-orange-hr {
     height: 3px;
     width: 24px;
     background-color: #e8432e;
-    margin-bottom: 35px;
+    margin-bottom: 27px;
 }
 
 .welcome .orange-arrow-right {
@@ -522,7 +523,7 @@ body {
     }
 
     .more-about-us .light {
-        margin-top: 55px;
+        margin-top: 20px;
         font-family: 'nerislight';
         color: #737373;
     }
@@ -816,9 +817,34 @@ body {
     margin: 0 auto;
  }
 
+.width-fixer.fbp {
+    width: 200px;
+    padding-top: 64px;
+
+}
+
+.width-fixer.fbc {
+    padding-top: 85px;
+    
+}
+
+.width-fixer.twp {
+    width: 200px;
+    padding-top: 125px;
+    
+}
+
+.width-fixer.twc {
+    padding-top: 40px;
+    
+}
+
+
   .media-downloads .width-fixer p{
     font-family: 'neristhin';
-    margin-top: 30px;
+    margin-top: 28px;
+    font-size: 17px;
+    margin-bottom: 20px;
  }
 
    .media-downloads .width-fixer .arrow-down{
@@ -975,6 +1001,29 @@ body {
         margin-bottom: 10px !important;
     }
 
+        .width-fixer.fbp {
+    width: 174px;
+    padding-top: 40px;
+
+}
+
+.width-fixer.fbc {
+    padding-top: 85px;
+    width: 65%;
+    
+}
+
+.width-fixer.twp {
+    width: 156px;
+    padding-top: 90px;
+    
+}
+
+.width-fixer.twc {
+    padding-top: 85px;
+    
+}
+
 
 }
 
@@ -997,6 +1046,28 @@ body {
         padding-bottom: 50px;
         margin: 0 auto;
     }
+
+    .width-fixer.fbp {
+    width: 200px;
+    padding-top: 64px;
+
+}
+
+.width-fixer.fbc {
+    padding-top: 85px;
+    
+}
+
+.width-fixer.twp {
+    width: 200px;
+    padding-top: 125px;
+    
+}
+
+.width-fixer.twc {
+    padding-top: 72px;
+    
+}
 
     .header .copy p {
         margin-top: 20px;
