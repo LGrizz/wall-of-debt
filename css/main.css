@@ -272,7 +272,8 @@ body {
 .header .copy p {
     font-family: 'nerissemibold';
     line-height: 1.3em;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    margin-top: 63px;
 }
 
 .header .copy .second-join{
@@ -448,7 +449,7 @@ body {
     }
 
     .about.header .top-nav {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .about.header .logo {
@@ -727,7 +728,7 @@ body {
  ==*/
 
 .header.medi {
-    padding-bottom: 155px;
+    padding-bottom: 100px;
 }
 
  /*==
@@ -919,6 +920,7 @@ body {
 
     .header .copy p {
         font-size: 14px;
+        margin-top: 10px;
     }
 
     .header .brand {
@@ -999,6 +1001,10 @@ body {
         padding-bottom: 50px;
         margin: 0 auto;
     }
+
+    .header .copy p {
+        margin-top: 20px;
+    }
 }
 
 @media(min-width:992px) and (max-width: 1199px){
@@ -1006,6 +1012,9 @@ body {
 
 
 @media (min-width: 1200px){
+    .header .copy p {
+        margin-top: 90px;
+    }
 }
 
 
