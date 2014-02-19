@@ -421,6 +421,7 @@ body {
  /*==
     About Header
  ==*/
+
     .about.header {
         padding-bottom: 65px;
     }
@@ -581,7 +582,7 @@ body {
     }
 
 
-    .quotes .bx-wrapper .bx-viewport {
+    .bx-wrapper .bx-viewport {
         background: transparent;
         border: none;
         box-shadow: none;
@@ -703,6 +704,128 @@ body {
     color: #e8432e;
  }
 
+ /*==
+    Media Header
+ ==*/
+
+.header.medi {
+    padding-bottom: 155px;
+}
+
+ /*==
+    Tell your friends
+ ==*/
+
+  .tell-your-friends {
+    padding-bottom: 34px;
+  }
+
+ .grey-join {
+        width: 115px;
+        height: 46px;
+        margin: 25px auto 53px auto;
+        background-image: url('../img/icons.png');
+        background-repeat: no-repeat;
+        background-position: -234px -64px;
+        background-size: 350px auto;
+ }
+
+  .grey-face {
+        width: 79px;
+        height: 75px;
+        margin: 0 auto 49px auto;
+        background-image: url('../img/icons.png');
+        background-repeat: no-repeat;
+        background-position: -3px -119px;
+        background-size: 350px auto;
+ }
+
+  .grey-twit {
+        width: 79px;
+        height: 75px;
+        margin: 0 auto 49px auto;
+        background-image: url('../img/icons.png');
+        background-repeat: no-repeat;
+        background-position: -93px -120px;
+        background-size: 350px auto;
+ }
+
+ .tell-your-friends .about-copy {
+    margin-top: 12px;
+ }
+
+ /*==
+    Media download
+ ==*/
+
+ .media-downloads {
+    background-color: #e8432e;
+    color: #fff;
+ }
+
+ .media-downloads .light {
+    font-family: 'nerislight';
+    margin-bottom: 30px;
+ }
+
+  .media-downloads .small {
+    font-family: 'neristhin';
+    font-size: 13px;
+    margin-bottom: 30px;
+ }
+
+ .media-downloads .view-all {
+    font-size: 14px;
+    font-family: 'nerislight'
+ }
+
+ .media-downloads .copy {
+    border-left: 1px solid rgba(100, 100, 100, 0.4);
+    border-right: 1px solid rgba(100, 100, 100, 0.4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+  .media-downloads .right-arrow-small {
+    background-image: url('../img/icons.png');
+    display: block;
+    float: left;
+    width: 20px;
+    height: 17px;
+    background-position: -75px 1px;
+    background-size: 90px auto;
+    background-repeat: no-repeat;
+  }
+ .media-downloads .width-fixer {
+    width: 75%;
+    margin: 0 auto;
+ }
+
+  .media-downloads .width-fixer p{
+    font-family: 'neristhin';
+    margin-top: 30px;
+ }
+
+   .media-downloads .width-fixer .arrow-down{
+        background-image: url('../img/icons.png');
+        display: block;
+        float: left;
+        width: 14px;
+        height: 16px;
+        background-position: -61px 1px;
+        background-size: 90px auto;
+        background-repeat: no-repeat;
+        margin-right: 6px;
+ }
+
+    .media-downloads .width-fixer a {
+        color: #fff;
+    }
+ .media-downloads .small-orange-hr {
+    background-color: #fff;
+    margin-bottom: 60px;
+ }
+
 
  /*==
     Responsive Tweaks
@@ -800,6 +923,17 @@ body {
         padding-top: 5px;
     }
 
+    .media-downloads .width-fixer {
+        width: 55%;
+    }
+
+    .header.medi {
+        padding-bottom: 20px;
+    }
+    .large-orange-hr.medi {
+        margin-bottom: 10px !important;
+    }
+
 
 }
 
@@ -815,11 +949,20 @@ body {
     .welcome .right-copy .total {
         font-size: 57px;
     }
+
+    .media-downloads .width-fixer {
+        width: 70%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:992px) and (max-width: 1199px){
 }
 
 
 @media (min-width: 1200px){
-    
 }
 
 

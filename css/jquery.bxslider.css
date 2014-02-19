@@ -98,29 +98,22 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url('../img/icons.png') no-repeat -415px -220px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url('../img/icons.png') no-repeat -460px -220px;
 }
 
-.bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
-}
-
-.bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
-}
 
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
 	top: 50%;
 	margin-top: -16px;
 	outline: 0;
-	width: 32px;
-	height: 32px;
+	width: 25px;
+	height: 60px;
 	text-indent: -9999px;
 	z-index: 9999;
 }
