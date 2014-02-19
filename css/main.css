@@ -147,7 +147,7 @@ textarea {
 
 
 html { 
-  background: url(../img/brick.jpg) no-repeat center center fixed; 
+  background: url('../img/brick.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -209,6 +209,9 @@ body {
    z-index: 1;
 }
 
+.about.navbar-fixed-top, .navbar-fixed-bottom {
+    z-index: 51;
+}
 /*==
     Header
  ==*/
@@ -227,10 +230,14 @@ body {
     display: block;
 }
 
+.header a.current {
+    padding-bottom: 0;
+}
+
 .header  p {
     color: white;
     padding: 6px 0;
-    font-size: 28px;
+    font-size: 27px;
     font-family: 'nerissemibold';
     display: block;
 }
@@ -263,8 +270,9 @@ body {
 }
 
 .header .copy p {
-    font-family: 'nerislight';
+    font-family: 'nerissemibold';
     line-height: 1.3em;
+    letter-spacing: 1px
 }
 
 .header .copy .second-join{
@@ -288,6 +296,10 @@ body {
     margin-top: 35px;
 }
 
+.header .brand a {
+    padding-bottom: 0px;
+}
+
 /*==
     Welcome Section
  ==*/
@@ -301,7 +313,7 @@ body {
  }
 
  .welcome h3 {
-    font-family: 'nerissemibold';
+    font-family: 'nerisblack';
     font-size: 26px;
     margin: 0 0 5px 0;
 
@@ -407,6 +419,292 @@ body {
 }
 
  /*==
+    About Header
+ ==*/
+    .about.header {
+        padding-bottom: 65px;
+    }
+
+    .about.header .large-orange-hr {
+        height: 3px;
+        width: 95px;
+        margin: 0 auto;
+        background-color: #e8432e;
+    }
+
+    .about.header .top-nav {
+        margin-bottom: 100px;
+    }
+
+    .about.header .logo {
+        margin-top: 18px;
+    }
+
+    .about.header .social {
+        margin-top: 30px;
+    }
+
+    .about.header .twitter {
+        width: 30px;
+        height: 30px;
+        float: left;
+        background-image: url('../img/icons.png');
+        background-repeat: no-repeat;
+        background-position: -63px 0;
+        background-size: 185px auto;
+    }
+
+    .about.header .facebook {
+        width: 30px;
+        height: 35px;
+        float: left;
+        background-image: url('../img/icons.png');
+        background-repeat: no-repeat;
+        background-position: -93px 0;
+        background-size: 185px auto;
+    }
+
+    .about.header .social a{
+        font-size: 24px;
+        padding: 0px;
+        margin-left: 45px;
+    }
+
+    .about.header .contact-us {
+        margin-top: 55px;
+    }
+    
+    .about.header .contact-us .down-arrow{
+        width: 41px;
+        height: 50px;
+        background-image: url('../img/icons.png');
+        background-repeat: no-repeat;
+        background-position:  -42px 0;
+        background-size: 250px auto;
+        position: absolute;
+        left: 15px;
+        z-index: 1;
+    }
+
+    .about.header .contact-us a{
+        font-size: 20px;
+        font-family: 'nerislight';
+        display: block;
+        position: relative;
+        z-index: 2;
+        padding-left: 58px;
+    }
+
+ /*==
+    More About Us
+ ==*/
+    
+    .more-about-us {
+        padding-top: 35px;
+        padding-bottom: 85px;
+        z-index: 52;
+    }
+
+    .more-about-us .light {
+        margin-top: 55px;
+        font-family: 'nerislight';
+        color: #737373;
+    }
+
+    .speech {
+        background-image: url('../img/icons.png');
+        display: block;
+        float: left;
+        width: 19px; 
+        height: 20px;
+        background-position: 1px -15px;
+        background-size: 106px auto;
+        background-repeat: no-repeat;
+    }
+
+    .heart {
+        background-image: url('../img/icons.png');
+        display: block;
+        float: left;
+        width: 19px; 
+        height: 20px;
+        background-position: -18px -14px;
+        background-size: 106px auto;
+        background-repeat: no-repeat;
+    }
+
+    .dollar {
+        background-image: url('../img/icons.png');
+        display: block;
+        float: left;
+        width: 16px; 
+        height: 20px;
+        background-position: -37px -14px;
+        background-size: 106px auto;
+        background-repeat: no-repeat;
+    }
+
+    .more-about-us .about-copy {
+        margin-top: 50px;
+    }
+
+    .more-about-us .about-copy h3 {
+        font-family: 'nerislight';
+        font-size: 18px;
+        margin-left:30px;
+    }
+
+    .more-about-us .about-copy p {
+        color: #b8b8b8;
+        font-size: 13px;
+        font-family: 'neristhin';
+        margin-top: 25px;
+    }
+
+
+
+  /*==
+    Quotes
+ ==*/
+
+    .quotes {
+        background: url('../img/quote-background.jpg') no-repeat center center; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+
+    .purp {
+        background-color: rgba(55,59,99, 0.9);
+        padding: 110px 0 20px 0; 
+    }
+
+
+    .quotes .bx-wrapper .bx-viewport {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .quotes .slider {
+        color: #fff;
+        text-align: center;
+        font-family: 'neristhin';
+        font-size: 18px;
+        padding-left: 0;
+    }
+
+    .quotes .slider .source {
+        font-size: 13px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .quotes .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+        background-color: #fff; 
+    }
+
+  /*==
+    Contact Us
+ ==*/
+
+.welcome.contact-us {
+    padding-top: 88px;   
+    padding-bottom: 85px;
+}
+
+.welcome.contact-us .message {
+    margin-top: 60px;
+    font-family: 'neristhin';
+    line-height: 1.4em;
+}
+
+.welcome.contact-us .address {
+    font-family: 'neristhin';
+    color: #b8b8b8;
+    font-size: 13px;
+    margin-top: 20px;
+     line-height: 1.4em;
+}
+
+.welcome.contact-us form {
+    position: relative;
+}
+
+.welcome.contact-us form a {
+    margin-top: 5px;
+}
+
+.welcome.contact-us form h3 {
+    font-size: 20px;
+    margin-top: 95px;
+    margin-bottom: 25px;
+}
+
+.welcome.contact-us form ::-webkit-input-placeholder {
+   font-family: 'nerislight';
+    font-size: 13px;
+    color: #b8b8b8;
+}
+
+.welcome.contact-us form:-moz-placeholder { /* Firefox 18- */
+   font-family: 'nerislight';
+    font-size: 13px;
+    color: #b8b8b8;
+}
+
+.welcome.contact-us form::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'nerislight';
+    font-size: 13px;
+    color: #b8b8b8;
+}
+
+.welcome.contact-us form:-ms-input-placeholder {  
+  font-family: 'nerislight';
+    font-size: 13px;
+    color: #b8b8b8;
+} 
+
+.welcome.contact-us form input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #b8b8b8;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.welcome.contact-us form .letter {
+        background-image: url('../img/icons.png');
+        display: block;
+        float: left;
+        width: 18px; 
+        height: 18px;
+        background-position: -53px -16px;
+        background-size: 106px auto;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        margin-top: 5px;
+}
+
+  /*==
+    Footer
+ ==*/
+
+ footer {
+    background-color: #fff;
+    border-top: 5px solid #e8432e;
+    padding: 40px 0; 
+    font-size: 11px;
+ }
+
+ footer .orange {
+    color: #e8432e;
+ }
+
+
+ /*==
     Responsive Tweaks
  ==*/
 
@@ -475,6 +773,31 @@ body {
 
     .welcome .right-copy .total {
         font-size: 50px;
+    }
+
+    .about.header .top-nav {
+        margin-bottom: 20px;
+    }
+
+    .twit {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .face {
+        width: 200px;
+        margin: 20px auto 0 auto;
+    }
+
+    .about.header .contact-us.mobile {
+        width: 200px;
+        margin: 26px auto 0 auto;
+        position: relative;
+    }
+    
+    .about.header .contact-us.mobile a {
+        padding-left: 20px;
+        padding-top: 5px;
     }
 
 
