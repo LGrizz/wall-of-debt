@@ -368,6 +368,7 @@ body {
 
  .wall {
     padding-top: 70px;
+    padding-bottom: 300px;
  }
 
 
@@ -416,6 +417,19 @@ body {
     background-position: -84px 0;
     margin: 0 auto;
     background-size: 250px;
+}
+
+.to-top {
+    width: 50px;
+    height: 50px;
+    background-image: url('../img/icons.png');
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
 }
 
  /*==
@@ -693,6 +707,10 @@ body {
     Footer
  ==*/
 
+.home-footer {
+    display: none;
+}
+
  footer {
     background-color: #fff;
     border-top: 5px solid #e8432e;
@@ -826,6 +844,31 @@ body {
     margin-bottom: 60px;
  }
 
+
+ /*==
+    Animation
+ ==*/
+
+.item.animate {
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp 0.65s ease forwards;
+    -moz-animation: moveUp 0.65s ease forwards;
+    animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+    to { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@-moz-keyframes moveUp {
+    to { -moz-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+    to { transform: translateY(0); opacity: 1; }
+}
 
  /*==
     Responsive Tweaks
@@ -964,213 +1007,6 @@ body {
 
 @media (min-width: 1200px){
 }
-
-
-/**
-.underline{
-    border-bottom: 1px red solid;
-}
-
-
-body{
-    min-width: 1024px;
-    font-family: neris !important;
-    color:white;
-    background-image: url('../img/topbg.jpg');
-}
-
-.top{
-    height: 450px;
-    width: 65%;
-    margin: 30px auto;
-}
-
-.topbar{
-    width:100%;
-    margin: 30px auto;
-    display: block;
-    clear: right;
-    height: 50px;
-}
-
-.topaction{
-    margin-top: 70px;
-}
-
-.joindiv{
-    float:right;
-    width:300px;
-    height:250px;
-}
-
-.title{
-    color:white;
-    float: left;
-    font-size: 20px;
-    margin-top:20px;
-}
-
-.topnav{
-    color: white;
-    float: right;
-    margin-left: 10px;
-    padding: 10px 10px;
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: nerissemibold;
-}
-
-.join{
-    background-color: #e8432e;
-}
-
-.joinbutton{
-    background-color: #e8432e;
-    padding: 10px 10px;
-    color: white;
-    clear:right;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 15px auto;
-    display:inline-block;
-    font-family: nerissemibold;
-}
-
-.toptext{
-    color:white;
-    float:right;
-    clear:right;
-    font-size: 22px;
-    font-weight: 300;
-    width:300px;
-    display:block;
-    font-family: nerissemibold;
-}
-
-.welcomediv{
-    background-color: white;
-    display:block;
-    width:100%;
-    padding: 55px 0px;
-    border-top: 5px red solid;
-}
-
-.innerwelcome{
-    width:65%;
-    height:250px;
-    margin:0px auto;
-}
-
-.totaldollar{
-    font-size: 90px;
-    margin-top: 45px;
-}
-
-.welcomeleft{
-    float:left;
-    width:45%;
-    margin-right: 5%;
-}
-
-.welcomeright{
-    float:right;
-    width:50%;
-    padding-top: 40px;
-}
-
-.welcometext{
-    padding-top: 30px;
-    display: inline-block;
-    font-family: nerissemibold;
-}
-
-.welcomeright p{
-    font-family: nerislight;
-}
-
-.learnmore{
-    padding-top: 20px;
-    color: black;
-    display: block;
-    font-family: nerissemibold;
-}
-
-.red{
-    color:red;
-}
-
-.header{
-    height: 65px;
-    background-color: #353435;
-    width:65%;
-    padding:0 18%;
-}
-
-.cardsdiv{
-    height:860px;
-    background-image: url('../img/lightbricks.jpg');
-    width:100%;
-}
-
-.logo{
-    width:370px;
-    height:174px;
-}
-
-.joinform{
-    display: none;
-    margin-top: 75px;
-}
-
-input[type="text"]
-{
-    background: transparent !important;
-    border: none !important;
-    color: white !important;
-    border-bottom-color: white !important;
-    border-bottom-left-radius: 0px !important;
-    border-bottom-right-radius: 0px !important;
-    border-bottom-style: solid !important;
-    border-bottom-width: 2px !important;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-input[type=text]:focus, textarea:focus {
-  box-shadow: none !important;
-  padding: none !important;
-  margin: none !important;
-  border-bottom: 2px solid white !important;
-}
-
-input[type="submit"]{
-    background-color: #e8432e;
-    padding: 10px 10px;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    display:inline-block;
-    font-family: nerissemibold;
-    border: none !important;
-    margin-top: 15px;
-}
-
-input[type=submit]:focus{
-  box-shadow: none !important;
-  padding: none !important;
-  margin: none !important;
-}
-
-.jointhewall{
-    color:white;
-    margin-top: 0px !important;
-}
-
-.formright{
-    float:right;
-}
-
-**/
 
 
 /* ==========================================================================

@@ -9,9 +9,9 @@ if (mysqli_connect_errno()){
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$page = $_GET['page'] * 10;
+$page = $_GET['page'] * 3;
 
-$result = mysqli_query($con, "SELECT * FROM wallpost LIMIT ". $page .", 10");  
+$result = mysqli_query($con, "SELECT * FROM wallpost LIMIT ". $page .", 3");  
 
 if (!$result) { // add this check.
     die('Invalid query: ' . mysqli_error());

@@ -15,7 +15,12 @@ $( document ).ready(function() {
 	});
 
 	$(".contactus").click(function(){
-		$("html, body").animate({ scrollTop: $(document).height() }, "slow");
+		$("html, body").animate({ scrollTop: $('.welcome.contact-us').offset().top }, "slow");
 	});
+
+	$(".to-top").click(function(){
+		$("html, body").animate({ scrollTop: 0 }, "slow");
+	})
+
 
 });
