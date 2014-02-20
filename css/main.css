@@ -474,6 +474,11 @@ body {
     line-height: 52px
 }
 
+.wall .card .debt.large {
+    font-size: 42px;
+    line-height: 52px
+}
+
 .wall .card .school {
     font-family: 'nerislight';
     font-size: 14px;

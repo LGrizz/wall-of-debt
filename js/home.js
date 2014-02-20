@@ -23,11 +23,13 @@ $(document).ready(function(){
 
     showCards = function(){
         var randomNum = Math.floor((Math.random()*5)+currentPage);
-
-        console.log(randomNum)
         for (var i = currentPage; i < currentPage +5; i++) {
             if(i < cardsArray.length){
-                $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+cardsArray[i].name+"</p><p class='debt'>$"+cardsArray[i].debt+"</p><p class='school'>"+cardsArray[i].school+"</p></div></div>");
+                if(cardsArray[i].debt.length > 5) {
+                        $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+cardsArray[i].name+"</p><p class='debt large'>$"+cardsArray[i].debt+"</p><p class='school'>"+cardsArray[i].school+"</p></div></div>");
+                }else{
+                        $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+cardsArray[i].name+"</p><p class='debt'>$"+cardsArray[i].debt+"</p><p class='school'>"+cardsArray[i].school+"</p></div></div>");
+                }
             }
             if(i == randomNum-1 && i < cardsArray.length) {
                 $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card tweet'><p><span class='bold'>@usrtwitr:</span> Sed commodo fringilla. Cras nisl diam, ultricies eget ornare at, eleifend vel felis <br><span class='bold'>#wallofdebt</span></p><div class='bird'></div></div></div>");
@@ -44,7 +46,12 @@ $(document).ready(function(){
 
         for (var i = currentPage; i < currentPage +5; i++) {
             if(i < cardsArray.length){
-                $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+cardsArray[i].name+"</p><p class='debt'>$"+cardsArray[i].debt+"</p><p class='school'>"+cardsArray[i].school+"</p></div></div>");
+                 if(cardsArray[i].debt.length > 5) {
+                    $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+cardsArray[i].name+"</p><p class='debt large'>$"+cardsArray[i].debt+"</p><p class='school'>"+cardsArray[i].school+"</p></div></div>");
+
+                }else{
+                    $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+cardsArray[i].name+"</p><p class='debt'>$"+cardsArray[i].debt+"</p><p class='school'>"+cardsArray[i].school+"</p></div></div>");
+                }
             }
         };
 
