@@ -37,17 +37,47 @@
                                 <div class="medi large-orange-hr"></div>
                             </div>
                             <div class="col-sm-4">
-                                <p class="join">JOIN</p>
+                                <p class="join joinbutton">JOIN</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div id="main" class="row">
                     <div class="col-sm-5">
                         <img src="img/logo.png" class="img-responsive logo" alt="Wall of Debt">
                     </div>
                     <div class="col-sm-7 copy">
                         <p>Students and graduates can send the message that debt is hurting students and families and that government needs to act.</p>
+                    </div>
+                </div>
+
+                <div id="join-form" class="row">
+                    <div class="col-sm-4">
+                        <img src="img/logo.png" class="img-responsive logo" alt="Wall of Debt">
+                    </div>
+                    <div class="col-sm-8  copy">
+                        <p class="thank-you-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor ut labore et dolore magna.</p>
+                        <form id="join" action="php/form.php">
+                            <h3>Add your brick to the Wall of Debt</h3>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input name="name" type="text" placeholder="Name" id="name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input name="email" type="text" placeholder="Email" id="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input name="school" type="text" placeholder="School" id="school">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input name="debt" type="text" placeholder="Debt" id="debt" maxlength="7">
+                                </div>
+                            </div>
+                            <a href="#thanks" id="submitBrick" class="pull-right">JOIN</a>
+                            <div class="letter pull-right"></div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -147,6 +177,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
          <script src="js/vendor/bootstrap.min.js"></script>
          <script src="js/vendor/jquery.bxslider.min.js"></script>
+         <script src="js/vendor/jquery.autocomplete.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script>

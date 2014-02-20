@@ -1,0 +1,711 @@
+{ "schools": [
+    {
+        "value": "Athabasca University",
+        "data": "Athabasca University"
+    },
+    {
+        "value": "Grant MacEwan University",
+        "data": "Grant MacEwan University"
+    },
+    {
+        "value": "Mount Royal University",
+        "data": "Mount Royal University"
+    },
+    {
+        "value": "University of Alberta",
+        "data": "University of Alberta"
+    },
+    {
+        "value": "University of Calgary",
+        "data": "University of Calgary"
+    },
+    {
+        "value": "University of Lethbridge",
+        "data": "University of Lethbridge"
+    },
+    {
+        "value": "Capilano University",
+        "data": "Capilano University"
+    },
+    {
+        "value": "Emily Carr University of Art and Design",
+        "data": "Emily Carr University of Art and Design"
+    },
+    {
+        "value": "Kwantlen Polytechnic University",
+        "data": "Kwantlen Polytechnic University"
+    },
+    {
+        "value": "Royal Roads University",
+        "data": "Royal Roads University"
+    },
+    {
+        "value": "Simon Fraser University",
+        "data": "Simon Fraser University"
+    },
+    {
+        "value": "Thompson Rivers University",
+        "data": "Thompson Rivers University"
+    },
+    {
+        "value": "University of British Columbia",
+        "data": "University of British Columbia"
+    },
+    {
+        "value": "University of Victoria",
+        "data": "University of Victoria"
+    },
+    {
+        "value": "University of the Fraser Valley",
+        "data": "University of the Fraser Valley"
+    },
+    {
+        "value": "University of Northern British Columbia",
+        "data": "University of Northern British Columbia"
+    },
+    {
+        "value": "Vancouver Island University",
+        "data": "Vancouver Island University"
+    },
+    {
+        "value": "Brandon University",
+        "data": "Brandon University"
+    },
+    {
+        "value": "University College of the North",
+        "data": "University College of the North"
+    },
+    {
+        "value": "University of Manitoba",
+        "data": "University of Manitoba"
+    },
+    {
+        "value": "University of Winnipeg",
+        "data": "University of Winnipeg"
+    },
+    {
+        "value": "Université de Saint-Boniface",
+        "data": "Université de Saint-Boniface"
+    },
+    {
+        "value": "Mount Allison University",
+        "data": "Mount Allison University"
+    },
+    {
+        "value": "St. Thomas University",
+        "data": "St. Thomas University"
+    },
+    {
+        "value": "University of New Brunswick",
+        "data": "University of New Brunswick"
+    },
+    {
+        "value": "Université de Moncton",
+        "data": "Université de Moncton"
+    },
+    {
+        "value": "Memorial University of Newfoundland",
+        "data": "Memorial University of Newfoundland"
+    },
+    {
+        "value": "Acadia University",
+        "data": "Acadia University"
+    },
+    {
+        "value": "Cape Breton University",
+        "data": "Cape Breton University"
+    },
+    {
+        "value": "Dalhousie University",
+        "data": "Dalhousie University"
+    },
+    {
+        "value": "University of King's College",
+        "data": "University of King's College"
+    },
+    {
+        "value": "Mount Saint Vincent University",
+        "data": "Mount Saint Vincent University"
+    },
+    {
+        "value": "NSCAD University",
+        "data": "NSCAD University"
+    },
+    {
+        "value": "Saint Francis Xavier University",
+        "data": "Saint Francis Xavier University"
+    },
+    {
+        "value": "Saint Mary's University",
+        "data": "Saint Mary's University"
+    },
+    {
+        "value": "Université Sainte-Anne",
+        "data": "Université Sainte-Anne"
+    },
+    {
+        "value": "Algoma University",
+        "data": "Algoma University"
+    },
+    {
+        "value": "Brock University",
+        "data": "Brock University"
+    },
+    {
+        "value": "Carleton University",
+        "data": "Carleton University"
+    },
+    {
+        "value": "Dominican University College",
+        "data": "Dominican University College"
+    },
+    {
+        "value": "Lakehead University",
+        "data": "Lakehead University"
+    },
+    {
+        "value": "Laurentian University",
+        "data": "Laurentian University"
+    },
+    {
+        "value": "McMaster University",
+        "data": "McMaster University"
+    },
+    {
+        "value": "Nipissing University",
+        "data": "Nipissing University"
+    },
+    {
+        "value": "OCAD University",
+        "data": "OCAD University"
+    },
+    {
+        "value": "Queen's University",
+        "data": "Queen's University"
+    },
+    {
+        "value": "Saint Paul University",
+        "data": "Saint Paul University"
+    },
+    {
+        "value": "Royal Military College of Canada",
+        "data": "Royal Military College of Canada"
+    },
+    {
+        "value": "Ryerson University",
+        "data": "Ryerson University"
+    },
+    {
+        "value": "Trent University",
+        "data": "Trent University"
+    },
+    {
+        "value": "University of Guelph",
+        "data": "University of Guelph"
+    },
+    {
+        "value": "University of Ontario Institute of Technology",
+        "data": "University of Ontario Institute of Technology"
+    },
+    {
+        "value": "University of Ottawa",
+        "data": "University of Ottawa"
+    },
+    {
+        "value": "University of Toronto",
+        "data": "University of Toronto"
+    },
+    {
+        "value": "University of Waterloo",
+        "data": "University of Waterloo"
+    },
+    {
+        "value": "University of Western Ontario",
+        "data": "University of Western Ontario"
+    },
+    {
+        "value": "University of Windsor",
+        "data": "University of Windsor"
+    },
+    {
+        "value": "Wilfrid Laurier University",
+        "data": "Wilfrid Laurier University"
+    },
+    {
+        "value": "York University",
+        "data": "York University"
+    },
+    {
+        "value": "University of Prince Edward Island",
+        "data": "University of Prince Edward Island"
+    },
+    {
+        "value": "Bishop's University",
+        "data": "Bishop's University"
+    },
+    {
+        "value": "Concordia University",
+        "data": "Concordia University"
+    },
+    {
+        "value": "École de technologie supérieure",
+        "data": "École de technologie supérieure"
+    },
+    {
+        "value": "École nationale d'administration publique",
+        "data": "École nationale d'administration publique"
+    },
+    {
+        "value": "École Polytechnique de Montréal",
+        "data": "École Polytechnique de Montréal"
+    },
+    {
+        "value": "HEC Montréal",
+        "data": "HEC Montréal"
+    },
+    {
+        "value": "Institut national de la recherche scientifique",
+        "data": "Institut national de la recherche scientifique"
+    },
+    {
+        "value": "McGill University",
+        "data": "McGill University"
+    },
+    {
+        "value": "Université de Montréal",
+        "data": "Université de Montréal"
+    },
+    {
+        "value": "Université de Sherbrooke",
+        "data": "Université de Sherbrooke"
+    },
+    {
+        "value": "Université du Québec en Abitibi-Témiscamingue",
+        "data": "Université du Québec en Abitibi-Témiscamingue"
+    },
+    {
+        "value": "Université du Québec en Outaouais",
+        "data": "Université du Québec en Outaouais"
+    },
+    {
+        "value": "Université du Québec à Chicoutimi",
+        "data": "Université du Québec à Chicoutimi"
+    },
+    {
+        "value": "Université du Québec à Montréal",
+        "data": "Université du Québec à Montréal"
+    },
+    {
+        "value": "Université du Québec à Rimouski",
+        "data": "Université du Québec à Rimouski"
+    },
+    {
+        "value": "Université du Québec à Trois-Rivières",
+        "data": "Université du Québec à Trois-Rivières"
+    },
+    {
+        "value": "Université Laval",
+        "data": "Université Laval"
+    },
+    {
+        "value": "First Nations University of Canada",
+        "data": "First Nations University of Canada"
+    },
+    {
+        "value": "University of Regina",
+        "data": "University of Regina"
+    },
+    {
+        "value": "University of Saskatchewan",
+        "data": "University of Saskatchewan"
+    },
+        {
+        "data": "Ambrose University College",
+        "value": "Ambrose University College"
+    },
+    {
+        "data": "Bow Valley College",
+        "value": "Bow Valley College"
+    },
+    {
+        "data": "Canadian University College",
+        "value": "Canadian University College"
+    },
+    {
+        "data": "Grande Prairie Regional College",
+        "value": "Grande Prairie Regional College"
+    },
+    {
+        "data": "Keyano College",
+        "value": "Keyano College"
+    },
+    {
+        "data": "The King's University College",
+        "value": "The King's University College"
+    },
+    {
+        "data": "Lakeland College",
+        "value": "Lakeland College"
+    },
+    {
+        "data": "Lethbridge College",
+        "value": "Lethbridge College"
+    },
+    {
+        "data": "Medicine Hat College",
+        "value": "Medicine Hat College"
+    },
+    {
+        "data": "Northern Alberta Institute of Technology",
+        "value": "Northern Alberta Institute of Technology"
+    },
+    {
+        "data": "Olds College",
+        "value": "Olds College"
+    },
+    {
+        "data": "Red Deer College",
+        "value": "Red Deer College"
+    },
+    {
+        "data": "Robertson College",
+        "value": "Robertson College"
+    },
+    {
+        "data": "Southern Alberta Institute of Technology",
+        "value": "Southern Alberta Institute of Technology"
+    },
+    {
+        "data": "Alexander College",
+        "value": "Alexander College"
+    },
+    {
+        "data": "Ashton College",
+        "value": "Ashton College"
+    },
+    {
+        "data": "Brighton College",
+        "value": "Brighton College"
+    },
+    {
+        "data": "Columbia College",
+        "value": "Columbia College"
+    },
+    {
+        "data": "Camosun College",
+        "value": "Camosun College"
+    },
+    {
+        "data": "Canadian College",
+        "value": "Canadian College"
+    },
+    {
+        "data": "College of New Caledonia",
+        "value": "College of New Caledonia"
+    },
+    {
+        "data": "Douglas College",
+        "value": "Douglas College"
+    },
+    {
+        "data": "Langara College",
+        "value": "Langara College"
+    },
+    {
+        "data": "Northern Lights College",
+        "value": "Northern Lights College"
+    },
+    {
+        "data": "Northwest Community College",
+        "value": "Northwest Community College"
+    },
+    {
+        "data": "Okanagan College",
+        "value": "Okanagan College"
+    },
+    {
+        "data": "Selkirk College",
+        "value": "Selkirk College"
+    },
+    {
+        "data": "Sprott Shaw College",
+        "value": "Sprott Shaw College"
+    },
+    {
+        "data": "MTI Community College",
+        "value": "MTI Community College"
+    },
+    {
+        "data": "Pera College",
+        "value": "Pera College"
+    },
+    {
+        "data": "Vancouver Central College",
+        "value": "Vancouver Central College"
+    },
+    {
+        "data": "Vancouver Community College",
+        "value": "Vancouver Community College"
+    },
+    {
+        "data": "Vancouver Institute of Media Arts (VanArts)",
+        "value": "Vancouver Institute of Media Arts (VanArts)"
+    },
+    {
+        "data": "VCAD Vancouver College of Art and Design",
+        "value": "VCAD Vancouver College of Art and Design"
+    },
+    {
+        "data": "Assiniboine Community College",
+        "value": "Assiniboine Community College"
+    },
+    {
+        "data": "Red River College",
+        "value": "Red River College"
+    },
+    {
+        "data": "Robertson College",
+        "value": "Robertson College"
+    },
+    {
+        "data": "University College of the North",
+        "value": "University College of the North"
+    },
+    {
+        "data": "New Brunswick Community College",
+        "value": "New Brunswick Community College"
+    },
+    {
+        "data": "Maritime College of Forest Technology",
+        "value": "Maritime College of Forest Technology"
+    },
+    {
+        "data": "New Brunswick Bible Institute",
+        "value": "New Brunswick Bible Institute"
+    },
+    {
+        "data": "Aurora College",
+        "value": "Aurora College"
+    },
+    {
+        "data": "Academy of Learning College",
+        "value": "Academy of Learning College"
+    },
+    {
+        "data": "Mactech Distance Education",
+        "value": "Mactech Distance Education"
+    },
+    {
+        "data": "Canadian Coast Guard College",
+        "value": "Canadian Coast Guard College"
+    },
+    {
+        "data": "Gaelic College",
+        "value": "Gaelic College"
+    },
+    {
+        "data": "Kingston Bible College",
+        "value": "Kingston Bible College"
+    },
+    {
+        "data": "Nova Scotia Community College",
+        "value": "Nova Scotia Community College"
+    },
+    {
+        "data": "Nunavut Arctic College",
+        "value": "Nunavut Arctic College"
+    },
+    {
+        "data": "Algonquin College",
+        "value": "Algonquin College"
+    },
+    {
+        "data": "Cambrian College",
+        "value": "Cambrian College"
+    },
+    {
+        "data": "Canadore College",
+        "value": "Canadore College"
+    },
+    {
+        "data": "Centennial College",
+        "value": "Centennial College"
+    },
+    {
+        "data": "CollÃ¨ge BorÃ©al",
+        "value": "CollÃ¨ge BorÃ©al"
+    },
+    {
+        "data": "Conestoga College",
+        "value": "Conestoga College"
+    },
+    {
+        "data": "Confederation College",
+        "value": "Confederation College"
+    },
+    {
+        "data": "Durham College",
+        "value": "Durham College"
+    },
+    {
+        "data": "Fanshawe College",
+        "value": "Fanshawe College"
+    },
+    {
+        "data": "Fleming College",
+        "value": "Fleming College"
+    },
+    {
+        "data": "George Brown College",
+        "value": "George Brown College"
+    },
+    {
+        "data": "Georgian College",
+        "value": "Georgian College"
+    },
+    {
+        "data": "Humber College",
+        "value": "Humber College"
+    },
+    {
+        "data": "La CitÃ© collÃ©giale",
+        "value": "La CitÃ© collÃ©giale"
+    },
+    {
+        "data": "Lambton College",
+        "value": "Lambton College"
+    },
+    {
+        "data": "Loyalist College",
+        "value": "Loyalist College"
+    },
+    {
+        "data": "Westervelt College",
+        "value": "Westervelt College"
+    },
+    {
+        "data": "Mohawk College",
+        "value": "Mohawk College"
+    },
+    {
+        "data": "Niagara College",
+        "value": "Niagara College"
+    },
+    {
+        "data": "Northern College",
+        "value": "Northern College"
+    },
+    {
+        "data": "St. Clair College",
+        "value": "St. Clair College"
+    },
+    {
+        "data": "St. Lawrence College",
+        "value": "St. Lawrence College"
+    },
+    {
+        "data": "Sault College",
+        "value": "Sault College"
+    },
+    {
+        "data": "Seneca College",
+        "value": "Seneca College"
+    },
+    {
+        "data": "Sheridan College",
+        "value": "Sheridan College"
+    },
+    {
+        "data": "Bonnie Gordon College",
+        "value": "Bonnie Gordon College"
+    },
+    {
+        "data": "Holland College",
+        "value": "Holland College"
+    },
+    {
+        "data": "Maritime Christian College",
+        "value": "Maritime Christian College"
+    },
+    {
+        "data": "Bethany College",
+        "value": "Bethany College"
+    },
+    {
+        "data": "Hepburn, Saskatchewan",
+        "value": "Hepburn, Saskatchewan"
+    },
+    {
+        "data": "Briercrest College and Seminary",
+        "value": "Briercrest College and Seminary"
+    },
+    {
+        "data": "Carlton Trail Regional College",
+        "value": "Carlton Trail Regional College"
+    },
+    {
+        "data": "Horizon College and Seminary",
+        "value": "Horizon College and Seminary"
+    },
+    {
+        "data": "College Mathieu",
+        "value": "College Mathieu"
+    },
+    {
+        "data": "Gravelbourg, Saskatchewan",
+        "value": "Gravelbourg, Saskatchewan"
+    },
+    {
+        "data": "Cumberland College",
+        "value": "Cumberland College"
+    },
+    {
+        "data": "Eston College",
+        "value": "Eston College"
+    },
+    {
+        "data": "Great Plains College",
+        "value": "Great Plains College"
+    },
+    {
+        "data": "Lakeland College",
+        "value": "Lakeland College"
+    },
+    {
+        "data": "Nipawin Bible College",
+        "value": "Nipawin Bible College"
+    },
+    {
+        "data": "Northlands College",
+        "value": "Northlands College"
+    },
+    {
+        "data": "North West Regional College",
+        "value": "North West Regional College"
+    },
+    {
+        "data": "Parkland College",
+        "value": "Parkland College"
+    },
+    {
+        "data": "Saskatchewan Indian Institute of Technologies",
+        "value": "Saskatchewan Indian Institute of Technologies"
+    },
+    {
+        "data": "Saskatchewan Institute of Applied Science and Technology",
+        "value": "Saskatchewan Institute of Applied Science and Technology"
+    },
+    {
+        "data": "Southeast Regional College",
+        "value": "Southeast Regional College"
+    },
+    {
+        "data": "St Peter's College",
+        "value": "St Peter's College"
+    },
+    {
+        "data": "Western Academy Broadcasting College",
+        "value": "Western Academy Broadcasting College"
+    }
+]
+}

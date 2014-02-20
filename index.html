@@ -33,7 +33,7 @@
                     <ul class="nav navbar-nav pull-right">
                         <li><a href="about.html">ABOUT</a></li>
                         <li><a href="media.html">MEDIA</a></li>
-                        <li><a href="#" class='join'>JOIN</a></li>
+                        <li><a href="#" class='join joinbutton'>JOIN</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -58,18 +58,47 @@
                                 <a href="media.html">MEDIA</a>
                             </div>
                             <div class="col-sm-4">
-                                <p class="join">JOIN</p>
+                                <p class="join joinbutton">JOIN</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div id="main" class="row">
                     <div class="col-sm-7">
                         <img src="img/logo.png" class="img-responsive logo" alt="Wall of Debt">
                     </div>
                     <div class="col-sm-5 copy">
                         <p>Financial assistance isn’t meeting needs and graduates are ending up further and further behind.</p>
-                        <p class="second-join">ADD YOUR BRICK</p>
+                        <p class="second-join joinbutton">ADD YOUR BRICK</p>
+                    </div>
+                </div>
+                <div id="join-form" class="row">
+                    <div class="col-sm-4">
+                        <img src="img/logo.png" class="img-responsive logo" alt="Wall of Debt">
+                    </div>
+                    <div class="col-sm-8  copy">
+                        <p class="thank-you-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor ut labore et dolore magna.</p>
+                        <form id="join" action="php/form.php">
+                            <h3>Add your brick to the Wall of Debt</h3>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input name="name" type="text" placeholder="Name" id="name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input name="email" type="text" placeholder="Email" id="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input name="school" type="text" placeholder="School" id="school">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input name="debt" type="text" placeholder="Debt" id="debt" maxlength="7">
+                                </div>
+                            </div>
+                            <a href="#thanks" id="submitBrick" class="pull-right">JOIN</a>
+                            <div class="letter pull-right"></div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -93,6 +122,7 @@
         <div class="wall">
             <div class="container">
                 <div class="row wall-cards">
+                    <!--
                     <div class="col-md-3 col-sm-4 item">
                         <div class="card">
                             <p class="name">Malcom Allen</p>
@@ -272,7 +302,7 @@
                             <div class="bird"></div>
                         </div>
                     </div>
-                
+                    -->
                 </div>
 
             </div>
@@ -291,59 +321,13 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
          <script src="js/vendor/bootstrap.min.js"></script>
+         <script src="js/vendor/jquery.autocomplete.js"></script>
+         <script src="js/vendor/jquery.fittext.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-         <script>
-            $(document).ready(function(){
-                
-                var page = 0;
-                var distance = $('.welcome').offset().top;
-                 $window = $(window);
-
-                // Get first page from database
-                /*
-                $.getJSON('php/wallposts.php?page='+page, function(data) {
-                    $.each( data, function( i, item ) {
-                            $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+item.name+"</p><p class='debt'>"+item.debt+"</p><p class='school'>"+item.school+"</p></div></div>");
-                     });
-                });
-                page++;
-                */
-               
-                // When window is scrolled....
-
-                $window.scroll(function() {
-
-                    // Infinite Scroll
-
-                    if ($(window).scrollTop() >= $(document).height() - $(window).height() - 350) {
-                        $.getJSON('php/wallposts.php?page='+page, function(data) {
-                            
-                            if(data.length !== 0){
-                                $.each( data, function( i, item ) {
-                                    $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card'><p class='name'>"+item.name+"</p><p class='debt'>"+item.debt+"</p><p class='school'>"+item.school+"</p></div></div>");
-                                 });
-                                 page++;
-                            }
-                        });
-                       
-                    }
-
-                    // Fixed Nav + To Top Button
-
-
-                    if ( $window.scrollTop() >= distance ) {
-                        $('.navbar').show();
-                        $('.to-top').fadeIn();
-                    }else if( $window.scrollTop() <= distance ) {
-                         $('.navbar').hide();
-                         $('.to-top').hide();
-                    }
-
-
-                });
-            });
-        </script>
+        <script src="js/home.js"></script>
+         
+         
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
