@@ -672,9 +672,9 @@ body {
     }
 
     .more-about-us .about-copy p {
-        color: #b8b8b8;
-        font-size: 13px;
-        font-family: 'neristhin';
+        color: #333;
+        font-size: 14px;
+        font-family: 'nerislight';
         margin-top: 25px;
     }
 
@@ -738,11 +738,11 @@ body {
 }
 
 .welcome.contact-us .address {
-    font-family: 'neristhin';
-    color: #b8b8b8;
+    font-family: 'nerissemibold';
+    color: #333;
     font-size: 13px;
     margin-top: 20px;
-     line-height: 1.4em;
+    line-height: 1.4em;
 }
 
 .welcome.contact-us form {
