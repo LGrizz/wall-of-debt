@@ -6,6 +6,12 @@ $(document).ready(function(){
      var cardsArray = [];
      var currentPage = 0;
 
+     // Get total debt
+     $.getJSON('php/totaldebt.php', function(data) {
+            $('.total').text('$'+data)
+        });
+
+
     // Get first page from database
     $.getJSON('php/wallposts.php?page='+page, function(data) {
         $.each( data, function( i, item ) {
