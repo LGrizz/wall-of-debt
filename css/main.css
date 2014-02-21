@@ -488,22 +488,37 @@ body {
 .wall .tweet {
     font-family: 'neristhin';
     background-color: #5ea9dd;
-    padding: 20px 10px;
+    padding: 13px 14px 20px 14px;
+    font-size: 14px;
+}
+
+.wall .tweet  img {
+    margin: 0 auto;
 }
 
 .wall .tweet .bold {
     font-family: 'nerislight';
+    font-size: 15px;
+}
+
+.wall .tweet p {
+    height: 104px;
+    overflow: hidden;
 }
 
 .wall .tweet .bird {
     display: block;
-    width: 41px;
-    height: 39px;
+    width: 34px;
+    height: 32px;
     background-repeat: no-repeat;
     background-image: url('../img/icons.png');
-    background-position: -84px 0;
+    background-position: -67px 0;
     margin: 0 auto;
-    background-size: 250px;
+    background-size: 201px auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -17px;
+    bottom: 30px;
 }
 
 .to-top {
@@ -1124,6 +1139,10 @@ body {
     display: block;
     background-color: #e8432e;
     cursor: pointer;
+}
+
+.wall .tweet .bird {
+    bottom: 10px;
 }
 
 
