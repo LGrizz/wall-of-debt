@@ -8,6 +8,7 @@ $(document).ready(function () {
     var tweetsArray = [];
     var gotTweets = false;
     var wait = false;
+    var noTweets = false;
 
     // Shuffle array
     function Shuffle(o) {
@@ -23,26 +24,37 @@ $(document).ready(function () {
 
     // Get tweets put them in an array
     $.getJSON('php/tweets.php', function (data) {
-        $.each(data.statuses, function (i, item) {
-            var obj = {};
-            obj.username = item.user.screen_name;
-            obj.tweet = item.text;
-            tweetsArray.push(obj);
-            if (tweetsArray.length === data.statuses.length) {
-                Shuffle(tweetsArray);
+        if(data.statuses.length === 0){
+                noTweets = true;
                 populateTweets();
-                gotTweets = true;
-            }
-        });
+        }else{
+            $.each(data.statuses, function (i, item) {
+                var obj = {};
+                obj.username = item.user.screen_name;
+                obj.tweet = item.text;
+                tweetsArray.push(obj);
+                if (tweetsArray.length === data.statuses.length) {
+                    Shuffle(tweetsArray);
+                    populateTweets();
+                    gotTweets = true;
+                }
+            });
+        }
+        
     });
 
     // Populate tweet boxes
     var populateTweets = function () {
         $('.tweet').each(function () {
             $(this).find('img').fadeOut(function () {
-                $(this).parent().prepend("<p><span class='bold'>@" + tweetsArray[tweetsArray.length - 1].username + ":</span> " + tweetsArray[tweetsArray.length - 1].tweet + "</p>");
-                $(this).remove();
-                tweetsArray.pop();
+                if(noTweets){
+                    $(this).parent().prepend("<p>Tweet your debt or tell us how debt impacts you using the hashtag<span class='bold'> #wallofdebt</span></p>");
+                    $(this).remove();
+                }else{
+                    $(this).parent().prepend("<p><span class='bold'>@" + tweetsArray[tweetsArray.length - 1].username + ":</span> " + tweetsArray[tweetsArray.length - 1].tweet + "</p>");
+                    $(this).remove();
+                    tweetsArray.pop();
+                }
             });
         });
     };
@@ -81,6 +93,8 @@ $(document).ready(function () {
                     if (gotTweets) {
                         $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card tweet'><p><span class='bold'>@" + tweetsArray[tweetsArray.length - 1].username + ":</span> " + tweetsArray[tweetsArray.length - 1].tweet + "</p><div class='bird'></div></div></div>");
                         tweetsArray.pop();
+                    } else if (noTweets) {
+                        $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card tweet'><p>Tweet your debt or tell us how debt impacts you using the hashtag<span class='bold'> #wallofdebt</span></p><div class='bird'></div></div></div>");
                     } else {
                         $('.wall-cards').append("<div class='col-md-3 col-sm-4 item animate'><div class='card tweet'><img src='img/loading.gif' class='img-responsive logo' alt='Tweet Loading'><div class='bird'></div></div></div>");
                     }
