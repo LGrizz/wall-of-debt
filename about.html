@@ -202,19 +202,19 @@
                 </p>
             </div>
             <div class="col-sm-8">
-                <form action="/php/contact.php">
+                <form id="form1" action="php/contact.php">
                     <h3>Say hello!</h3>
                     <div class="row">
                         <div class="col-sm-6">
-                            <input type="text" placeholder="Name">
+                            <input type="text" name="name" placeholder="Name">
                         </div>
                         <div class="col-sm-6">
-                            <input type="text" placeholder="Email">
+                            <input type="text" name="email" placeholder="Email">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            <input type="text" placeholder="Message">
+                            <input type="text" name="message" placeholder="Message">
                         </div>
                     </div>
                     <a href="#" onclick="document.getElementById('form1').submit();" class="pull-right">Send message</a>

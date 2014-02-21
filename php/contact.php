@@ -1,11 +1,11 @@
 <?php
 //Mail sending function
-            $subject = $_POST['name'];
-            $to = $_POST['email'];
-            $from = "zenphoto@example.com";
+            $subject = $_GET["name"]." sent you a Wall of Debt message";
+            $to = "langille.kyle@gmail.com";
+            $from = $_GET["email"];
 
             //data
-            $msg = "Your MSG <br>\n";       
+            $msg = "User name: ".$_GET["name"]."<br>"."User email: ".$_GET["email"]."<br><br>\r\nMessage: ".$_GET["message"]."<br><br>\n";       
 
 
             //Headers
@@ -14,5 +14,4 @@
             $headers .= "From: <".$from. ">" ;
 
             mail($to,$subject,$msg,$headers);
-            echo "Mail Sent.";
  ?>
