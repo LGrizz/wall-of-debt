@@ -1,0 +1,179 @@
+                    <!--
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Malcom Allen</p>
+                            <p class="debt">$4000</p>
+                            <p class="school">University of Victoria</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Eve Adams</p>
+                            <p class="debt">$6500</p>
+                            <p class="school">University of Calgary</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card tweet">
+                            <p><span class="bold">@twitteruser:</span> Donec commodo molestie tempor. ante in massa egestas, at laoreet quam portt.
+                                <br>
+                                <span class="bold">#wallofdebt</span></p>
+                            <div class="bird"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Rob Anders</p>
+                            <p class="debt">$19000</p>
+                            <p class="school">McMaster University</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card tweet">
+                            <p><span class="bold">@usrtwitr:</span> Sed commodo fringilla. Cras nisl diam, ultricies eget ornare at, eleifend vel felis 
+                                <br>
+                                <span class="bold">#wallofdebt</span></p>
+                            <div class="bird"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Scott Armstrong</p>
+                            <p class="debt">$1200</p>
+                            <p class="school">Queen's University</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">David Markus</p>
+                            <p class="debt">$7000</p>
+                            <p class="school">University of Ottawa</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Scarlett Chu</p>
+                            <p class="debt">$22000</p>
+                            <p class="school">York University</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Rob Anders</p>
+                            <p class="debt">$19000</p>
+                            <p class="school">McMaster University</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Scott Andrews</p>
+                            <p class="debt">$1200</p>
+                            <p class="school">University of Toronto</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Niki Ashton</p>
+                            <p class="debt">$9000</p>
+                            <p class="school">University of Waterloo</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card tweet">
+                            <p><span class="bold">@twtusr:</span> Phasellus ultrices ultrices mauris, ut msem. Duis egestas urna nullam.
+                                <br>
+                                <span class="bold">#wallofdebt</span></p>
+                            <div class="bird"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Malcom Allen</p>
+                            <p class="debt">$4000</p>
+                            <p class="school">University of Victoria</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Eve Adams</p>
+                            <p class="debt">$6500</p>
+                            <p class="school">University of Calgary</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card tweet">
+                            <p><span class="bold">@twitteruser:</span> Donec commodo molestie tempor. ante in massa egestas, at laoreet quam portt.
+                                <br>
+                                <span class="bold">#wallofdebt</span></p>
+                            <div class="bird"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Rob Anders</p>
+                            <p class="debt">$19000</p>
+                            <p class="school">McMaster University</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card tweet">
+                            <p><span class="bold">@usrtwitr:</span> Sed commodo fringilla. Cras nisl diam, ultricies eget ornare at, eleifend vel felis 
+                                <br>
+                                <span class="bold">#wallofdebt</span></p>
+                            <div class="bird"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Scott Armstrong</p>
+                            <p class="debt">$1200</p>
+                            <p class="school">Queen's University</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">David Markus</p>
+                            <p class="debt">$7000</p>
+                            <p class="school">University of Ottawa</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Scarlett Chu</p>
+                            <p class="debt">$22000</p>
+                            <p class="school">York University</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Rob Anders</p>
+                            <p class="debt">$19000</p>
+                            <p class="school">McMaster University</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Scott Andrews</p>
+                            <p class="debt">$1200</p>
+                            <p class="school">University of Toronto</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card">
+                            <p class="name">Niki Ashton</p>
+                            <p class="debt">$9000</p>
+                            <p class="school">University of Waterloo</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="card tweet">
+                            <img src="img/loading.gif" class="img-responsive logo" alt="Tweet Loading">
+                            <div class="bird"></div>
+                        </div>
+                    </div>
+                    -->
