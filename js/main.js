@@ -57,7 +57,6 @@ $(document).ready(function () {
 
         if (IsEmail($('#messageEmail').val()) && $("#messageName").val() !== '' && $("#messageContent").val() !== '') {
             $.post("php/contact.php", $("#contact").serialize(), function (data) {
-                console.log(data)
                 $('#contact').fadeOut(function () {
                     $('#contact').empty();
                     $('.message-thankyou').fadeIn();
