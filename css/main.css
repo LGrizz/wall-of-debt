@@ -804,6 +804,10 @@ body {
         padding-left: 58px;
     }
 
+    .message-thankyou {
+        display: none;
+    }
+
  /*==
     More About Us
  ==*/

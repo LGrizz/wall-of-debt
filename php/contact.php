@@ -14,4 +14,6 @@
             $headers .= "From: <".$from. ">" ;
 
             mail($to,$subject,$msg,$headers);
+
+            echo "Email sent!";
  ?>

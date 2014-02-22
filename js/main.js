@@ -50,6 +50,40 @@ $(document).ready(function () {
 
     });
 
+    $('#submitMessage').click(function () {
+
+        var capName = $('#messageName').val().capitalize(true);
+        $("#messageNname").val(capName);
+
+        if (IsEmail($('#messageEmail').val()) && $("#messageName").val() !== '' && $("#messageContent").val() !== '') {
+            $.post("php/contact.php", $("#contact").serialize(), function (data) {
+                console.log(data)
+                $('#contact').fadeOut(function () {
+                    $('#contact').empty();
+                    $('.message-thankyou').fadeIn();
+                });
+            });
+        } else {
+            if (!IsEmail($('#messageEmail').val())) {
+                $('#messageEmail').css("border-bottom-color", "#e8432e");
+            } else {
+                $('#messageEmail').css("border-bottom-color", "#b8b8b8");
+            }
+            if ($("#messageName").val() === '') {
+                $('#messageName').css("border-bottom-color", "#e8432e");
+            } else {
+                $('#messageName').css("border-bottom-color", "#b8b8b8");
+            }
+            if ($("#messageContent").val() === '') {
+                $('#messageContent').css("border-bottom-color", "#e8432e");
+            } else {
+                $('#messageContent').css("border-bottom-color", "#b8b8b8");
+            }
+        }
+
+
+    });
+
 
 
     var schools = [];

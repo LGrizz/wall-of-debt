@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="Debt isn’t just a problem for students; it’s a problem for families, communities, and the economy.">
-    <meta property="og:image" content="img/facebook-share.jpg">
+    <meta property="og:url" content="http://wallofdebt.ca/">
+    <meta property="og:image" content="http://wallofdebt.ca/img/facebook-share.jpg">
     <meta property="og:title" content="Wall of Debt">
     <meta property="og:description" content="Debt isn’t just a problem for students; it’s a problem for families, communities, and the economy.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -202,22 +203,23 @@
                 </p>
             </div>
             <div class="col-sm-8">
-                <form id="form1" action="php/contact.php">
+                <p class="message-thankyou">Thank you, we'll be in touch soon.</p>
+                <form id="contact" action="php/contact.php">
                     <h3>Say hello!</h3>
                     <div class="row">
                         <div class="col-sm-6">
-                            <input type="text" name="name" placeholder="Name">
+                            <input type="text" name="name" id="messageName" placeholder="Name">
                         </div>
                         <div class="col-sm-6">
-                            <input type="text" name="email" placeholder="Email">
+                            <input type="text" name="email" placeholder="Email"  id="messageEmail">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            <input type="text" name="message" placeholder="Message">
+                            <input type="text" name="message"  id="messageContent" placeholder="Message">
                         </div>
                     </div>
-                    <a href="#" onclick="document.getElementById('form1').submit();" class="pull-right">Send message</a>
+                    <a href="#thanks" id="submitMessage" class="pull-right">Send message</a>
                     <div class="letter pull-right"></div>
                 </form>
             </div>
