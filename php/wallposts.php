@@ -7,7 +7,7 @@ if (mysqli_connect_errno()){
 
 $page = $_GET['page'] * 40;
 
-$result = mysqli_query($con, "SELECT * FROM wallpost LIMIT ". $page .", 40");  
+$result = mysqli_query($con, "SELECT * FROM wallpost WHERE approved = 1 LIMIT ". $page .", 30");  
 
 if (!$result) { // add this check.
     die('Invalid query: ' . mysqli_error());
